@@ -1,0 +1,122 @@
+.fa-align-justify{
+    color: white!important;
+    font-size: 24px;
+    background-color: #251F29!important;    
+    padding: 20px;
+    border-radius: 15px;
+ }
+
+ .fa-chart-line{
+    color: white!important;
+    font-size: 24px;
+    background-color: #406BFF!important;
+    padding: 20px;
+    border-radius: 15px;
+ }
+
+ select{
+     border-radius: 7px!important;
+     background-color: #17161E!important;
+    border: none!important;
+    color: white!important;
+ }
+
+
+ .github{
+     background-color: #406BFF;
+     border-radius: 7px!important;
+     font-size: 22px;
+     cursor: pointer;
+ }
+
+
+ .website{
+    border-radius: 7px!important;
+    background-color: #17161E!important;
+    cursor: pointer;
+}
+
+.fa-globe{
+    color: #406BFF;
+    font-size: 22px;
+}
+
+.reddit{
+width: 50%;
+}
+
+
+.facts{
+    border-bottom: 2px solid #7D2FF5;
+}
+
+
+.bitcoin{
+    background-color: white;
+    border-radius: 18px;
+    width: 50px!important;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 80px;
+    top: 0;
+    padding:3px;
+}
+
+
+
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+        .date{
+            margin: 10px 0px 0px 0px!important;
+        }
+
+        .graph-section{
+            padding-left: 0px!important;
+            padding-bottom: 0px!important;
+            margin-left: 0px!important;
+            padding-right: 0px!important;
+            margin-right: 0px!important;
+        }
+
+        .info-card{
+            margin-left: 0px!important;
+            margin-right: 0px!important;
+        }
+
+        .icons{
+            margin-left: 0px!important;
+            margin-right: 0px!important;
+        }
+
+        .exchange{
+            padding: 10px!important;
+        }
+
+
+        select{
+            margin-left: -20px!important;
+        }
+
+        .exchange h5{
+            margin-bottom: 30px!important;
+        }
+
+        .alexa{
+            margin: 24px 0px 0px 0px!important;
+        }
+
+        .bitcoin{
+            position: relative;
+            margin-left: 200px;
+            margin-top: -100px;
+            width: 65px!important;
+        }
+
+        .info-card h5{
+            margin-bottom: 0px!important;
+        }
+
+        
+ }
+

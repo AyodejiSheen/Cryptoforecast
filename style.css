@@ -1,0 +1,142 @@
+/* color */
+/* #7D2FF5 - blue
+background - #17161E
+ overlay black - #251F29 */
+
+ .bg-black{
+     background-color: #17161E!important;
+ }
+
+ .fa-bars{
+     color: #7D2FF5!important;
+     font-size: 24px;
+     background-color: #251F29;
+     padding: 20px;
+     border-radius: 15px;
+ }
+
+ .form-control{
+     border: 1px solid #2e2d35 !important;
+     font-weight: 500;
+     height: 60px!important;
+     outline: none!important;
+     border-radius: 20px!important;
+ }
+
+ .bg-overlay{
+     background-color: #251F29;
+     border-radius: 15px;
+ }
+
+ .fa-align-justify{
+    color: white!important;
+    font-size: 24px;
+    background-color: #406BFF;    
+    padding: 20px;
+    border-radius: 15px;
+ }
+
+ .fa-chart-line{
+    color: white!important;
+    font-size: 24px;
+    background-color: #251F29;
+    padding: 20px;
+    border-radius: 15px;
+ }
+
+ .fa-chart-line:hover{
+    background-color: #406BFF;
+ }
+
+ .leaders-coin{
+     background-color: #7D2FF5;
+     border-radius: 10px;
+ }
+
+ .all-coin{
+    background-color: #7D2FF5;
+    border-radius: 10px;
+    width: 150px!important;
+ }
+
+ .fw-bold{
+     font-weight: 450!important;
+ }
+
+ .event-tag{
+    color: #406BFF!important;
+    font-size: 16px;
+    background-color: #17161E;
+    border-radius: 8px;
+ }
+
+ .events{
+     background-color: #7D2FF5;
+     border-radius: 15px;
+     line-height: 1.2;
+ }
+
+ .event-note{
+     font-size: 14px;
+ }
+
+ .btn:focus{
+     outline: none;
+     box-shadow: none;
+ }
+
+
+ @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+    a{
+        text-decoration: none;
+    }
+
+    .bar{
+        display: none;
+    }
+
+    .search-box{
+        margin-top: 25px ;
+    }
+
+    .side-nav{
+        margin: 0!important;
+        padding-top: 0px!important;
+    }
+
+    .side-nav-wrap{
+        padding: 12px;
+    }
+
+    .leaders{
+        margin-top: 24px;
+    }
+
+    .leaders-wrap{
+        padding: 0px!important;
+    }
+
+    .leaders-coin h4{
+        font-size: medium;
+    }
+
+    .all-coin{
+        background-color: #7D2FF5;
+        border-radius: 10px;
+        width: 100px!important;
+        margin: 10px 10px 10px 0px!important;
+     }
+
+     .all-coins h2, .leaders h2{
+         margin-bottom: 24px!important;
+     }
+
+     .event-wrap{
+         margin: 24px 0px 0px 0px!important;
+     }
+
+     .events{
+         line-height: normal;
+     }
+ }
